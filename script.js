@@ -27,9 +27,9 @@ function onBackdropClick(event) {
 }
 
 function onEscKeyPress(event) {
-  //   console.log(event);
-  //   console.log(event.currentTarget);
-  //   console.log(event.target);
+  console.log(event);
+  console.log(event.currentTarget);
+  console.log(event.target);
 
   if (event.key === "Escape") {
     onCloseModal();
